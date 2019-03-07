@@ -10,7 +10,7 @@ Build a simple JavaScript app/widget that does the following:
 response containing the latitude and longitude for the IP address from which the
 request originated;
 2. Makes a subsequent request to the given weather API, which returns the current
-conditions for the latitude and longitude from the first stepȀ
+conditions for the latitude and longitude from the first step
 3. Renders a User Interface that displays the temperature, a text description of the
 current weather conditions, an icon representing those conditions, and the city.
 

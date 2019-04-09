@@ -1,0 +1,10 @@
+.my-card {
+    height: 450px;
+    width: 350px;
+    margin: auto;
+    padding: 16px;
+}
+.icon {
+    width: 200px;
+    margin: auto;
+}

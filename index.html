@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body class="mdc-typography">
+<div class="mdc-card my-card">
+    <div class="my-card__primary">
+        <h2 class="my-card__title mdc-typography--headline6">Current conditions for:</h2>
+        <h3 class="my-card__subtitle mdc-typography--subtitle2" id="city"></h3>
+        <h1 id="temp"> &deg; F</h1>
+        <div>
+            <img class="icon" id="image">
+        </div>
+        <h3 class="my-card__subtitle mdc-typography--subtitle2" id="conditions"></h3>
+    </div>
+</div>
+<script src="./js/script.js" type="module"></script>
+</body>
+</html>
